@@ -1,5 +1,5 @@
 html {
-  --s: 33px;
+  --s: 31px;
   /* control the size */
   --c1: #DCD1B4;
   --c2: #5E9FA3;
@@ -40,7 +40,7 @@ html {
   font-size: large;
   font-weight: bolder;
   font-stretch: wider;
-  line-height: 40pt;
+  line-height: 25pt;
   color: black;
   width: 250px;
   height: 400px;
@@ -50,6 +50,12 @@ html {
   margin: 10px 10px;
 }
 
+.flip-card-back {
+
+  background-color: lightcoral;
+
+
+}
 
 
 .player-img {
@@ -64,6 +70,7 @@ html {
 .player-img-back  {
   height: 200px;
   width: 250px;
+  line-height: 30pt;
   padding: 2 px;
   border: 12 px solid lawngreen;
   border-radius: 10px;
@@ -76,7 +83,7 @@ html {
   background-color: #5E9FA3;
   color: #B55A30;
   font-size: 12pt;
-  font-weight: bold;
+  font-weight: bolder;
   font: timesnewroman;
   padding: 10px;
   border-radius: 5px;
@@ -99,6 +106,37 @@ html {
     border-radius: 5px;
     border: 3px solid #FFFFFF
 }
+
+.stash  {
+
+position: sticky;
+  background-color: darkolivegreen;
+  color: antiquewhite;
+  font-size: 12pt;
+  font-weight: bolder;
+  font: timesnewroman;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #FFFFFF
+
+}
+
+.flip {
+
+position: sticky;
+  background-color: darkred;
+  color: antiquewhite;
+  font-size: 12pt;
+  font-weight: bolder;
+  font: timesnewroman;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #FFFFFF
+
+
+
+}
+
 
 .delete-button:hover {
   color: tomato;
