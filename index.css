@@ -1,0 +1,161 @@
+html {
+  --s: 33px;
+  /* control the size */
+  --c1: #DCD1B4;
+  --c2: #5E9FA3;
+
+  background:
+    repeating-conic-gradient(var(--c1) 0 25%, #0000 0 50%) 0 0/calc(4*var(--s)) calc(2*var(--s)),
+    conic-gradient(#0000 50%, var(--c2) 0) calc(var(--s)/2) 0/calc(2*var(--s)) 1%,
+    radial-gradient(var(--c2) 70%, var(--c1) 72%) 0 0/var(--s) var(--s)
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+}
+.player-card-container {
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 25px;
+  justify-content: space-evenly;
+  max-width: 100%;
+  
+  
+}
+
+.player-card {
+  display: inline;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: linen; 
+  opacity: .95;
+  border: 5px solid lightcoral;
+  font: timesnewroman;
+  font-size: large;
+  font-weight: bolder;
+  font-stretch: wider;
+  line-height: 40pt;
+  color: black;
+  width: 250px;
+  height: 400px;
+  word-wrap: break-word;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+
+
+.player-img {
+  height: 200px;
+  width: 250px;
+  padding: 2 px;
+  border: 12 px solid lawngreen;
+  border-radius: 10px;
+
+}
+
+.player-img-back  {
+  height: 200px;
+  width: 250px;
+  padding: 2 px;
+  border: 12 px solid lawngreen;
+  border-radius: 10px;
+
+}
+
+.details {
+
+  position: sticky;
+  background-color: #5E9FA3;
+  color: #B55A30;
+  font-size: 12pt;
+  font-weight: bold;
+  font: timesnewroman;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #FFFFFF
+}
+
+.details:hover {
+  color: cornflowerblue;
+  background-color: #FFFFFF;
+  border: 2px solid cornflowerblue
+}
+
+.delete {
+  background-color: #FDAC53;
+  color: #FFFFFF;
+  font-size: 12pt;
+    font-weight: bold;
+    font: timesnewroman;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF
+}
+
+.delete-button:hover {
+  color: tomato;
+  background-color: #FFFFFF;
+  border: 2px solid tomato
+}
+
+.nav { 
+  top:0%;
+  background-color: linen;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid lightcoral;
+  border-radius: 10px;
+}
+
+  .newPlayer-form {
+    
+    background-color: lightslategray;
+    border: 3px solid lightcoral;
+    font: times;
+    color: purple;
+    width: 250px;
+    height: 400px;
+    word-wrap: break-word;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+
+.reset {
+bottom: 10px; 
+justify-content: center;
+  background-color: tomato;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF
+}
+
+.submit {
+bottom: 10px; 
+justify-content: center;
+background-color: forestgreen;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF
+  
+
+}
